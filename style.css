@@ -1,0 +1,124 @@
+/*
+Theme Name:     HTML5WEBAPPS-1
+Theme URI:      http: //html5webapps.fr/
+Description:    Thème enfant du thème Roots 
+Author:         James Lafa
+Author URI:     https://plus.google.com/114967122306037424684/
+Template:       Roots
+Version:        0.1.0
+*/
+
+/* COMMON */
+body {
+	background:url(images/background.png) 0 0 repeat;
+}
+footer .copy{
+	text-align:center;
+}
+::-moz-selection { background: #00a6e8; color: #fff; text-shadow: none; }
+::selection { background: #00a6e8; color: #fff; text-shadow: none; }
+/* HEADER */
+#logo {
+	background:url(images/logo.png) 0 0 no-repeat;
+	display:block;
+	height:243px;
+	width:965px;
+}
+
+/* INDEX PAGE */
+.home .attachment-index-thumb{
+	float:left;
+	margin:0 15px 15px 0;
+}
+
+.home .post {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #fff;
+	text-align:justify;
+	padding : 20px 50px;
+}
+.home .post:first-child {
+	border-top: none;
+}
+.home .post:last-child {
+	border-bottom: none;
+}
+
+.home .post header{
+	color: #777;
+}
+.home .hentry h2 a {
+	color: #444;
+	text-shadow: #fff 1px 2px 0;
+}
+.home .hentry time {
+	font-size: 1.1em;
+}
+.home .entry-content{
+	padding-top:1em;
+}
+
+/* SINGLE */
+.single #content {
+	padding: 0 50px;
+	text-align:justify;
+}
+.single header{
+	color: #777;
+}
+.single .entry-title{
+	color: #444;
+	text-shadow: #fff 1px 2px 0;
+}
+.single .entry-content{
+	padding-top:1em;
+}
+.single #respond {
+	padding-top:2em;	
+}
+.single #comments {
+	padding-top:2em;	
+}
+.single #comments header{
+	font-size:1.1em;
+	font-style:bold;
+}
+.single #comments ol {
+	list-style-type:none;
+}
+.single #comments .gravatar img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding:4px;
+	border:solid;
+	border-color: #dddddd #aaaaaa #aaaaaa #dddddd;
+	border-width: 1px ;
+	background-color:white;
+}
+.single #comments cite{
+	font-style:normal;
+}
+.single #comments cite a {
+	color:#777;
+	text-decoration:none;
+}
+.single #comments time {
+	display: inline;
+}
+.single #comments time a{
+	color:#777;
+	text-decoration:none;
+}
+.single #commentform input.button {
+	height: 3em;
+	margin-left:0px;
+	padding: 0 1em;
+}
+.single ol.commentlist .comment-reply-link{
+	height: 3em;
+	line-height: 3em;
+	margin-left:0px;
+	padding: 0 1em;
+}
