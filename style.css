@@ -122,3 +122,13 @@ footer .copy{
 	margin-left:0px;
 	padding: 0 1em;
 }
+.single .post-intro{
+	color:#444;
+	padding-bottom:3em;
+}
+.single .post-outro{
+	padding-top:3em;	
+}
+.single h3{
+	padding-top:1em;
+}
