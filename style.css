@@ -135,3 +135,6 @@ footer .copy{
 .single h3{
 	padding-top:1em;
 }
+.single .entry-content a{
+	color:#777;
+}
