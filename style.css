@@ -129,6 +129,9 @@ footer .copy{
 .single .post-outro{
 	padding-top:3em;	
 }
+.single h1, .single h2, .single h3, .single h4{
+	text-align:left;
+}
 .single h3{
 	padding-top:1em;
 }
